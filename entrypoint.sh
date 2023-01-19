@@ -1,4 +1,4 @@
 #!/bin/sh -e
 
-crontab -u monitor /crontab
+crontab /crontab
 crond -f
